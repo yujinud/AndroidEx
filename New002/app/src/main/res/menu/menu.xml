@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+android:title="대피소 추가"
+    android:id="@+id/addShelter"
+    />
+<item
+android:title="대피소 검색"
+    android:id="@+id/searchShelter"
+    />
+    <item
+        android:title="현재 위치 찾기"
+        android:id="@+id/searchMap"
+        />
+</menu>

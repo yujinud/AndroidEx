@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/rootLayout"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/memoryImage"
+            android:background="#CDCDCD"
+            android:scaleType="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/registDate"
+            android:text="2016-09-12"
+            android:textSize="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_weight="2"
+                android:textColor="#585858"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="21dp"
+                android:id="@+id/memoryTitle1"
+                android:gravity="center_vertical"
+                android:text="대피소명   :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#585858"
+                android:layout_marginTop="4dp"
+                android:textSize="21dp"
+                android:id="@+id/memoryTitle"
+                android:gravity="center_vertical"
+                android:text="Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="2"
+                android:textColor="#6483D8"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:id="@+id/namename1"
+                android:gravity="center_vertical"
+                android:text="    작성자     :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#6483D8"
+                android:layout_marginTop="4dp"
+                android:textSize="18dp"
+                android:id="@+id/namename"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="2"
+                android:textColor="#26A075"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp"
+                android:id="@+id/comment1"
+                android:text="        메모        :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#26A075"
+                android:layout_marginTop="4dp"
+                android:textSize="16dp"
+                android:id="@+id/comment"
+                android:text="Memo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:background="#FFCDCDCD"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+</LinearLayout>
